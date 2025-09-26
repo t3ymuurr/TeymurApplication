@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val textView: TextView = findViewById(R.id.textView)
         val button1: Button = findViewById(R.id.button1)
         val button2: Button = findViewById(R.id.button2)
+        val button3: Button = findViewById(R.id.button3)
 
         // Button 1 changes text
         button1.setOnClickListener {
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
         // Button 2 changes text color
         button2.setOnClickListener {
             textView.setTextColor(Color.RED)
+        }
+
+        // Button 3 changes background color
+        button3.setOnClickListener {
+            textView.setBackgroundColor(Color.YELLOW)
         }
     }
 }
