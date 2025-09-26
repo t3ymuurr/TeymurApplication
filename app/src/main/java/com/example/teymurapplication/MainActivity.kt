@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         val button2: Button = findViewById(R.id.button2)
         val button3: Button = findViewById(R.id.button3)
 
+        //Code for revert
+
         // Button 1 changes text
         button1.setOnClickListener {
             textView.text = "Text changed!"
